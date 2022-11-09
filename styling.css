@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "greatvibes";
+  src: url(fonts/GreatVibes-Regular.ttf);
+}
+body {
+  color: white;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-center {
+  display: inline;
+  text-align: center;
+}
+.text-center h3 {
+  margin: 5rem;
+  font-family: "greatvibes", cursive;
+  font-size: 3rem;
+}
+.mr-auto {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.position input {
+  border-radius: 4rem;
+  border: 1px solid white;
+
+  height: 4rem;
+  outline: none;
+}
+.bg-dark {
+  width: 6rem;
+  position: relative;
+  margin-left: 10rem;
+  padding-left: 4rem;
+}
+.btn-1 {
+  width: 10rem;
+  background-image: linear-gradient(to right, #f53817, #f58041);
+  color: #fff;
+  cursor: pointer;
+  margin-left: -10rem;
+  position: absolute;
+}
+h1 {
+  font-family: "greatvibes", cursive;
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-weight: bolder;
+}
+h6:hover {
+  color: red;
+  cursor: pointer;
+}
+.number {
+  margin-left: 6rem;
+}
+.card-body {
+  background-color: rgb(8, 8, 8);
+}
+.bg {
+  background-color: rgb(44, 42, 42);
+  opacity: 0.7;
+}
+.btn-2 {
+  width: 40rem;
+  height: 3.5rem;
+  margin: 2rem;
+  border-radius: 4rem;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #f53817, #f58041);
+}
+.profile {
+  margin: 3rem 16rem;
+}
+.arange {
+  align-items: center;
+  margin: 3rem 6rem 0 6rem;
+}
+.bulb {
+  padding: 7rem;
+  margin: 0 5rem;
+}
+.foot {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 37rem;
+}
+.fa-star {
+  color: yellow;
+}
+.nav-link:hover {
+  border-bottom: 3px solid red;
+}
+.jump:hover {
+  animation: up 3s ease;
+}
+@keyframes up {
+  100% {
+    transform: translateY(0px);
+  }
+  0% {
+    transform: translateY(20px);
+  }
+}
+.anime:hover {
+  animation: upmove 3s ease;
+}
+@keyframes upmove {
+  100% {
+    transform: translateY(-10);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  0% {
+    transform: translateY(20px);
+  }
+}
+.icon:hover {
+  animation: forward 3s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes forward {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.icon-am {
+  animation: forward 2s infinite;
+  animation-fill-mode: forwards;
+}
